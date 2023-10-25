@@ -5,6 +5,14 @@
 body{
     display: flex;
 }
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+}
 .background .back{
     width: 800px;
    
@@ -15,4 +23,9 @@ body{
 }
 .background .logo img{
    
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
