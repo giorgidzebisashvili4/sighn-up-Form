@@ -1,3 +1,18 @@
-h1{
-    color: yellowgreen;
+@font-face {
+    font-family: odin-font;
+    src: url(items/Norse-Bold.otf);
+}
+body{
+    display: flex;
+}
+.background .back{
+    width: 800px;
+   
+}
+.background .logo{
+    background-color: black ;
+    opacity: 50%;
+}
+.background .logo img{
+   
 }
